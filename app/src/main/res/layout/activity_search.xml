@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/incd_title_s1" />
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:id="@+id/history_lLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/padding_8"
+                    android:text="@string/searchresulthis"
+                    android:textColor="@color/text_primary_color"
+                    android:textSize="@dimen/textsize_small" />
+
+                <TextView
+                    android:id="@+id/clear_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:padding="@dimen/padding_8"
+                    android:text="@string/searchresultempty"
+                    android:textColor="@color/text_primary_color"
+                    android:textSize="@dimen/textsize_small" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip"
+                android:layout_marginBottom="@dimen/padding_2"
+                android:layout_marginLeft="@dimen/padding_8"
+                android:layout_marginRight="@dimen/padding_8"
+                android:layout_marginTop="@dimen/padding_2"
+                android:background="@color/gray_light" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/history_recycler"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:overScrollMode="never"
+                android:scrollbars="vertical" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/result_lLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding_8"
+                android:text="@string/searchresult"
+                android:textColor="@color/text_primary_color"
+                android:textSize="@dimen/textsize_small" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip"
+                android:layout_marginBottom="@dimen/padding_2"
+                android:layout_marginLeft="@dimen/padding_8"
+                android:layout_marginRight="@dimen/padding_8"
+                android:layout_marginTop="@dimen/padding_2"
+                android:background="@color/gray_light" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/result_recycler"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:overScrollMode="never"
+                android:scrollbars="vertical" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

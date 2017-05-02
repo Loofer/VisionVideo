@@ -1,0 +1,27 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- CircleProgressView -->
+    <dimen name="circle_progress_view_default_size">56dp</dimen>
+    <dimen name="circle_progress_view_default_border_width">4dp</dimen>
+    <dimen name="detail_image_height">225dp</dimen>
+    <!-- CircleIndicator -->
+    <dimen name="circle_indicator_default_height">20dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="btn_collect">30dp</dimen>
+    <dimen name="fragment_info_margin">10dp</dimen>
+    <dimen name="padding_half">8.0dip</dimen>
+    <dimen name="padding_item">2.0dip</dimen>
+    <dimen name="padding_0">0.0dip</dimen>
+    <dimen name="padding_2">2.0dip</dimen>
+    <dimen name="padding_4">4.0dip</dimen>
+    <dimen name="padding_8">8.0dip</dimen>
+    <dimen name="padding_16">16.0dip</dimen>
+    <dimen name="textsize_12">12.0sp</dimen>
+    <dimen name="textsize_small">14.0sp</dimen>
+    <dimen name="textsize_normal">16.0sp</dimen>
+    <dimen name="textsize_large">18sp</dimen>
+    <dimen name="tablayout_height">46.0dip</dimen>
+    <dimen name="grid_column_width">96dp</dimen>
+</resources>

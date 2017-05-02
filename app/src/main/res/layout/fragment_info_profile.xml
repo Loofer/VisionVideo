@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/fragment_info_margin">
+
+                <TextView
+                    android:id="@+id/video_info_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_toLeftOf="@+id/video_info_collect_btn"
+                    android:text="状态：BD高清 共120分钟\n类型：喜剧\n导演：小明 小明 小明 小明 小明 小明 小明\n年份：2016\n语言：国语\n地区：中国\n更新：2016-11-27 12:00:00" />
+
+                <Button
+                    android:id="@+id/video_info_collect_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/btn_collect"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_gravity="right"
+                    android:background="@drawable/bg_btn_info_collect"
+                    android:text="@string/btn_collect"
+                    android:textColor="@color/white" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_margin="@dimen/fragment_info_margin"
+                android:background="@color/grayLine" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/fragment_info_margin"
+                android:text="@string/txt_profile"
+                android:textColor="@color/black_90"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/info_profile_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:paddingLeft="@dimen/fragment_info_margin"
+                android:paddingRight="@dimen/fragment_info_margin"
+                android:paddingTop="@dimen/fragment_info_margin"
+                android:textColor="@color/black_90"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/expand_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|bottom"
+                android:layout_toRightOf="@id/info_profile_txt"
+                android:padding="@dimen/fragment_info_margin"
+                android:text="@string/txt_expand_open"
+                android:textColor="@color/colorPrimary"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

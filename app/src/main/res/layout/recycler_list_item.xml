@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/padding_2"
+    android:layout_marginLeft="@dimen/padding_4"
+    android:layout_marginRight="@dimen/padding_4"
+    android:layout_marginTop="@dimen/padding_2">
+
+    <TextView
+        android:id="@+id/item_list_txt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/selector_bth_3"
+        android:gravity="center"
+        android:paddingLeft="@dimen/padding_16"
+        android:paddingRight="@dimen/padding_16"
+        android:textColor="#ff2d2d2d"
+        android:textSize="@dimen/textsize_12" />
+</RelativeLayout>

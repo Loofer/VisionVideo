@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">视聚</string>
+    <!--下拉刷新组件-->
+    <string name="pull_to_refresh_pull_label_it">下拉可以刷新</string>
+    <string name="pull_to_refresh_release_label_it">松开即可刷新</string>
+    <string name="pull_to_refresh_refreshing_label_it">正在刷新数据...</string>
+    <string name="pull_to_refresh_updated_at">上次更新时间:%1$s</string>
+    <string name="pull_to_refresh_pull_label" translatable="false">向下拉动可以刷新</string>
+    <string name="pull_to_refresh_release_label" translatable="false">松开可以刷新</string>
+    <string name="pull_to_refresh_refreshing_label" translatable="false">加载中&#8230;</string>
+    <string name="pull_to_refresh_tap_label" translatable="false">点击刷新</string>
+    <!--上拉加载更多-->
+    <string name="string_load_more_empty">已经没有更多数据了</string>
+    <string name="string_load_more">上拉加载更多</string>
+    <string name="string_load_more_error">加载更多数据失败</string>
+    <string name="string_load_more_click">点击加载更多</string>
+    <string name="string_load_more_ing">正在加载更多数据</string>
+
+    <string name="string_tv_top_bar_back">返回</string>
+    <string name="string_tv_setting">WebView页面</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_desc">个人业余创作</string>
+    <string name="txt_empty_data">已经加载全部数据！</string>
+    <string name="btn_collect">点击收藏</string>
+
+    <string name="txt_profile">剧情简介</string>
+    <string name="txt_expand_open">展开全部</string>
+    <string name="txt_expand_close">收起简介</string>
+    <string name="txt_notice">软件不提供资源存储,也不参与录制上传,请支持正版</string>
+
+    <string name="playhis">播放记录</string>
+    <string name="search">搜索</string>
+    <string name="grade">收藏夹</string>
+    <string name="searchresult">搜索结果</string>
+    <string name="searchresultcancel">取消</string>
+    <string name="searchresultempty">清空</string>
+    <string name="searchresulthis">搜索记录</string>
+    <string name="textsearch">请输入影片名 电影类型 演员名 等</string>
+
+    <string name="cancel">cancel</string>
+    <string name="confirm">ok</string>
+    <string name="title">标题</string>
+    <string name="appslogan">"视聚视频 个人学习"</string>
+    <string name="disclaimer">2,免责声明</string>
+    <string name="suggestion">1,联系方式</string>
+    <string name="suggestion_ans">"QQ交流群：190657659
+email:15822233386@163.com"</string>
+    <string name="disclaimer_ans">"本APP提供的解析和播放服务仅限于学习和研究目的,不得利用本软件解析和播放您所在地区法律所禁止的内容,否则一切后果用户自负!
+本App通过实时抓取互联网视频信息,检测后使用giraffeplayer进行播放,故本App不存储不上传任何视频,即不负责关于播放的任何法律责任。
+任何修改本App(修改变更,反汇编)等信息后所发布的文件与作者无关。
+因使用本App造成的任何意外及损失,作者不负任何法律责任!
+若本App触犯了贵公司的权益,请联系我们,我们会尽快处理!"</string>
+    <string name="opensource">3,项目地址</string>
+    <string name="opensource2">4,感谢开源</string>
+    <string name="opensource_ans">Github搜“VisionVideo”(目前暂不开源)</string>
+    <string name="opensource_ans2">"com.github.bumptech.glide
+org.jsoup:jsoup
+com.jude:easyrecyclerview
+com.daimajia.swipelayout
+com.bilibili:magicasakura
+com.afollestad.material-dialogs
+com.tonicartos:superslim
+com.jude:swipebackhelper
+org.lzh.nonview.updateplugin
+https://github.com/tcking/GiraffePlayer.git"</string>
+</resources>
